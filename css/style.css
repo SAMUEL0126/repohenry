@@ -1,0 +1,587 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+/*================================================================================================*/
+/*================================   F  O  O  T  T  E  R  =================================*/
+
+.Foottterr{
+    color: white;
+    height: 100px;
+    background-color: rgb(21, 155, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*================================================================================================*/
+
+
+.BarraDeNav {
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+}
+
+li a{
+    padding: 18px;
+    color: white;
+}
+
+
+.titulo1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Dise{
+    color:white;
+    
+}
+
+.Multi{
+    color: rgb(21, 155, 233);
+    margin-left: 10px;
+
+}
+
+
+.NavegacionChimbaxx{
+    display: flex;
+}
+
+.LetraColorAzul{
+    color: rgb(21, 155, 233);
+}
+
+
+/*================================   L I N E A    S E P A R A D O R A    ================================*/
+
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(21, 155, 233);
+    border: 0px;
+}
+
+
+
+
+/*================================================================================================*/
+/*===========================  BARRA DE NAV SECUNDARIA    =================================*/
+
+.BarraDeNav2 {
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    
+}
+
+
+.Subscribete-Boletin{
+    color: white;
+}
+
+.imputGmail{
+    height: 28px;
+    width: 195px;
+
+}
+.ButoomSuss{
+    background-color: rgb(243, 82, 7);
+    border: none;
+    width: 130px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/*================================================================================================*/
+/*===========================  V I S T A   P R I N C I P A L  ===================================*/
+
+
+.headerImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/cabecera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: right;
+
+}
+
+.Expertos-Tecnologia{
+    font-size: 50px;
+    margin: 9px;
+}
+
+.Display-arribaText{
+    color: white;
+    text-align: center;
+    margin: 19px;
+
+}
+
+.ContenedorDeLosLenguajes{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 59px;
+    
+
+}
+.TitleContentIMG{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.ContenedorImges{
+    width: 250px;
+}
+
+
+.img1-2-3{
+    width: 46%;
+    margin-top: 50px;
+}
+
+
+
+/*================================================================================================*/
+/*================================  N  O  S  O  T  R  O  S   =================================*/
+
+
+.ContainerPrincipalNosotros{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ContaineDefondoParrafo{
+    color: white;
+    background-color: rgb(34, 40, 58);
+    font-size: 16px;
+    padding: 18px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+
+.Container1Pequeño img{
+    width: 100%;
+}
+
+.Container2Pequeño{
+    color: white;
+    background-color: rgb(34, 40, 58);
+    width: 340px;
+    height: 230px;
+}                  /* EN LOS 2 CONTAINERS DE ACA HICE EL CUADRO DE LA DERECHA */  
+
+.Container2Pequeño p {
+    font-size: 16px;
+    width: 305px;
+    padding-left: 18px;
+}
+
+.Container2Pequeño h1{
+    margin: 15px;
+}
+
+
+/*================================================================================================*/
+/*================================  S  E  R  V  I  C  I  O  S  =================================*/
+
+
+.ContainerPrincipalServicios{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Container1Pequeño{
+    width: 700px;
+}
+
+.ContaineDefondoVentas{
+    color: #000;
+    background-color: rgba(177, 177, 177, 0.767);
+    font-size: 16px;
+    padding: 18px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.ContaineDefondoVentas h1{
+    padding: 0 0 25px;
+
+}
+
+.PrecioDiseños{
+    padding-top: 40px;
+}
+
+.Container2PequeñoServicios{
+    color: white;
+    background-color: rgb(34, 40, 58);
+    width: 340px;
+    height: 230px;
+}                   /* EN LOS 2 CONTAINERS DE ACA HICE EL CUADRO DE LA DERECHA */  
+
+.Container2PequeñoServicios p {
+    font-size: 16px;
+    width: 305px;
+    padding-left: 18px;
+}
+
+.Container2PequeñoServicios h1{
+    margin: 15px;
+}
+
+
+/*================================================================================================*/
+/*================================  C  O  N  T  A  C  T  O  S  =================================*/
+
+.Container1Pequeño h2{
+    margin-bottom: 40px;
+}
+
+.ContainerPrincipalContactos{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Container1Pequeño{
+    width: 50%;
+}
+
+.PrecioDiseños{
+    padding-top: 40px;
+}
+
+.Container2PequeñoContactos{
+    color: white;
+    background-color: rgb(34, 40, 58);
+    width: 340px;
+    height: 230px;
+}                  /* EN LOS 2 CONTAINERS DE ACA HICE EL CUADRO DE LA DERECHA */  
+
+.Container2PequeñoContactos p {
+    font-size: 16px;
+    width: 305px;
+    padding-left: 18px;
+}
+
+.Container2PequeñoContactos h1{
+    margin: 15px;
+}
+
+.MapaGoogle{
+    width: 340px;
+    height: 250px;
+    margin-top: 61px;
+}
+
+.Container1Pequeño input{
+    width:100%;
+    height: 30px
+}
+
+textarea {
+    resize: none;
+    width:100%;
+    height:100px;
+
+}
+
+.TitleImputs{
+    margin-top: 4px;
+}
+
+.Container1Pequeño button{
+    width:100%;
+    height: 30px;
+    background-color: rgb(243, 82, 7);
+    border: none;
+    color: white;
+    
+}
+
+
+.Foottterr1{
+    color: white;
+    height: 100px;
+    background-color: rgb(21, 155, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*================================================================================================*/
+/*================================  R E S P O N S I V E  =========================================*/
+/*================================================================================================*/
+
+@media (max-width: 1000px) {
+/*===================================================*/
+/*===============  BARRA DE NAV  ===================*/
+    .titulo1{
+        font-size: 80%; 
+    }
+    .NavegacionChimbaxx {
+        font-size:14px;
+    }
+/*===================================================*/
+/*===================  I N D E X ====================*/
+    .Subscribete-Boletin {
+        font-size: 20px; 
+    }
+
+    .TitleContentIMG{
+        font-size: 20px;
+    }
+    
+    .ContenedorImges {
+        width: 28%;
+    }
+    .ContenedorImges p{
+        font-size: 16px;
+    }
+
+/*===================================================*/
+/*=============  N O S O T R O S ====================*/
+
+    .ContainerPrincipalNosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding: 37px; 
+    }
+
+    .Container2Pequeño {
+        width: 100%;
+        height: 159px;
+    }
+    
+    .Container2Pequeño p{
+        width: 97%;
+    }
+    
+    .Container2Pequeño h1 {
+        margin-bottom: 36px;
+        margin: 19px;
+        padding-top: 15px;
+    }
+
+
+
+/*===================================================*/
+/*=============  S E R V I C I O S===================*/
+
+.ContainerPrincipalServicios {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items:center;
+    padding: 37px; 
+}
+
+    .ContaineDefondoVentas h1{
+        font-size: 20px;
+    }
+
+    .ContaineDefondoVentas p{
+        font-size:80%;
+    }
+
+
+
+    .Container2PequeñoServicios {
+        width: 100%;
+        height: 90%;
+    }
+
+    .Container2PequeñoServicios p{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+
+
+/*===================================================*/
+/*=============  C O N T A C T O S  =================*/
+
+
+    .ContainerPrincipalContactos {
+        flex-direction: column;
+        padding-left: 37px;
+    }
+
+
+    .ContainerPrincipalContactos textarea{
+        width: 95%;
+    }
+
+    .ContainerPrincipalContactos button{
+        width: 95%;
+    }
+
+    .ContainerPrincipalContactos input{
+        width: 95%;
+    }
+
+
+    .Container1Pequeño{
+        width: 100%;
+    }
+
+    .Container2PequeñoContactos {
+        width: 95%;
+        height: 162px;
+        margin-top: 24px;
+        margin-top: 3px;
+
+    }
+
+
+    .Container2PequeñoContactos p {
+        width: 97%;
+    }
+
+
+    .MapaGoogle {
+        width: 100%;
+        height: 225px;
+        margin-top: 54px;
+
+    }
+
+    .Foottterr1 {
+        margin-top: 338px;
+        color: white;
+        height: 100px;
+        background-color: rgb(21, 155, 233);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (max-width: 650px) {
+
+/*===================================================*/
+/*=============== I  N  D  E  X  ====================*/
+
+    .titulo1 {
+        font-size: 57%;
+    }
+
+    .NavegacionChimbaxx {
+        font-size: 11px;
+    }
+
+    li a {
+        padding: 7px;
+        color: white;
+    }
+
+    .ContenedorDeLosLenguajes {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ContenedorImges {
+        width: 46%;
+    }
+
+    .TitleContentIMG {
+        font-size: 23px;
+    }
+
+    .ContenedorImges p {
+        font-size: 15px;
+    }
+
+    .Subscribete-Boletin {
+        font-size: 18px;
+        margin-left: 10PX;
+    }
+    
+    .imputGmail {
+        width: 149px;
+    }
+
+    .ButoomSuss {
+        margin-right: 20px;
+
+    }
+    
+/*===================================================*/
+/*=============== N O S O T R O S ====================*/
+    .Container2Pequeño {
+        height: 100%;
+    }
+    
+    .Container2Pequeño p {
+        margin-bottom: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
